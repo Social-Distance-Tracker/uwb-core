@@ -246,6 +246,16 @@ print_command_params(const int module, const int command,
 	}
 }
 
+/*!
+ * @fn show_cmd_help(char *argv[], struct streamer *streamer)
+ *
+ * @brief Print shell help commands
+ * 
+ * @param char *argv[]
+ * @param struct streamer *streamer
+ *
+ * @returns 0 
+ */
 static int
 show_cmd_help(char *argv[], struct streamer *streamer)
 {

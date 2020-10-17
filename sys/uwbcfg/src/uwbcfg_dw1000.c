@@ -36,6 +36,16 @@
 #define power_value(COARSE,FINE) ((COARSE<<5) + FINE)
 
 #if MYNEWT_VAL(DW1000_DEVICE_0)
+/*!
+ * @fn check_preamble_code(struct uwb_dev * inst, uint8_t *arg_code)
+ *
+ * @brief check_preamble_code
+ * 
+ * @param struct uwb_dev * inst
+ * @param uint8_t *arg_code
+ * 
+ * @returns none
+ */
 static void
 check_preamble_code(struct uwb_dev * inst, uint8_t *arg_code)
 {
